@@ -1,0 +1,55 @@
+{
+  "lottoId": 3,
+  "createdAt": "2025-06-01 00:31:20",
+  "events": [
+    {
+      "event": "LOTTO_CREATED",
+      "lottoId": 3,
+      "timestamp": 1748727080043,
+      "date": "2025-06-01 00:31:20",
+      "rewardAmount": 100.0,
+      "minPlayers": 2,
+      "entryCost": 25.0,
+      "startDelaySeconds": 30
+    },
+    {
+      "event": "PLAYER_JOINED",
+      "lottoId": 3,
+      "timestamp": 1748727083534,
+      "date": "2025-06-01 00:31:23",
+      "playerUUID": "89bca2f8-1276-3cc6-8613-f32b91022f84",
+      "playerName": "qwdqwd"
+    },
+    {
+      "event": "PLAYER_JOINED",
+      "lottoId": 3,
+      "timestamp": 1748727087933,
+      "date": "2025-06-01 00:31:27",
+      "playerUUID": "53082ea3-bfeb-31aa-88f1-64dbdd820e00",
+      "playerName": "ozaii"
+    },
+    {
+      "event": "PLAYER_JOINED",
+      "lottoId": 3,
+      "timestamp": 1748727091300,
+      "date": "2025-06-01 00:31:31",
+      "playerUUID": "0d8a9377-9b8e-3aee-aa14-0c615e546baa",
+      "playerName": "ssss"
+    },
+    {
+      "event": "LOTTO_FINISHED",
+      "lottoId": 3,
+      "timestamp": 1748727096302,
+      "date": "2025-06-01 00:31:36",
+      "winnerUUID": "0d8a9377-9b8e-3aee-aa14-0c615e546baa",
+      "winnerName": "ssss",
+      "rewardAmount": 100.0,
+      "totalParticipants": 3,
+      "participants": {
+        "53082ea3-bfeb-31aa-88f1-64dbdd820e00": "ozaii",
+        "0d8a9377-9b8e-3aee-aa14-0c615e546baa": "ssss",
+        "89bca2f8-1276-3cc6-8613-f32b91022f84": "qwdqwd"
+      }
+    }
+  ]
+}
