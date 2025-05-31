@@ -1,0 +1,14 @@
+org\ozaii\maglotto\lotto\LottoManager$1.class
+org\ozaii\maglotto\utils\JsonLogHelper.class
+org\ozaii\maglotto\commands\LottoCommand.class
+org\ozaii\maglotto\managers\ConfigManager$1.class
+org\ozaii\maglotto\managers\ConfigManager.class
+org\ozaii\maglotto\lotto\LottoManager.class
+org\ozaii\maglotto\commands\LottoTabCompleter.class
+org\ozaii\maglotto\utils\VaultUtil.class
+org\ozaii\maglotto\listeners\JoinListener.class
+org\ozaii\maglotto\lotto\LottoManager$3.class
+org\ozaii\maglotto\lotto\LottoGame$LottoStatus.class
+org\ozaii\maglotto\lotto\LottoManager$2.class
+org\ozaii\maglotto\MagLotto.class
+org\ozaii\maglotto\lotto\LottoGame.class

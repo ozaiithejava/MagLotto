@@ -1,0 +1,20 @@
+name: MagLotto
+version: '1.0-SNAPSHOT'
+main: org.ozaii.maglotto.MagLotto
+api-version: '1.21'
+depend: [Vault]
+softdepend: [MagEconomy]
+commands:
+  lotto:
+    description: Lotto komutları
+    usage: /<command> join <id> veya /<command> admin <...>
+    permission: lotto.use
+    permission-message: §cBu komutu kullanmak için yetkin yok.
+
+permissions:
+  lotto.use:
+    description: Lotto kullanma izni
+    default: true
+  lotto.admin:
+    description: Lotto admin komutları
+    default: op
